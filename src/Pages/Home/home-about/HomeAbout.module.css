@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.about h4 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgb(120,120,120);
+}
+
+.aboutContact {
+  font-weight: bold !important;
+  color: rgb(120,120,120) !important;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.subTitle {
+  line-height: 1.875em;
+  text-align: left;
+  font-size: 1.3rem;
+  color: rgb(120,120,120);
+  width: 35vw !important;
+}
+
+.columnContent {
+  margin-left: 40px;
+  justify-content: center;
+}
+
+.columnImage {
+  text-align: -webkit-center;
+}
+
+/* Responsividade */

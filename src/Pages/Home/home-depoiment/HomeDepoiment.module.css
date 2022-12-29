@@ -1,0 +1,30 @@
+.homeDepoiment {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.depoiment {
+  width: 20vw !important;
+  /* height: 320px !important; */
+  height: auto !important;
+  text-align: center;
+  margin: 10px;
+}
+
+.depoimentOne {
+  width: 20vw !important;
+  justify-content: center !important;
+  text-align: center;
+  align-self: center;
+  /* height: 200px !important; */
+  height: auto !important;
+  margin: 10px;
+}
+
+.textClient {
+  font-weight: bolder !important;
+  font-size: 0.8em !important;
+}
+
+/* Responsividade */

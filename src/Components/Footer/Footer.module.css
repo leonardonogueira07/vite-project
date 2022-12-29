@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(126 126 126);
+  padding: 12px;
+  position: relative;
+}
+
+.mediaSocial {
+  display: flex;
+  justify-content: center;
+}
+
+.mediaSocial img {
+  color: black !important;
+}
+
+.creator {
+  /* color: rgb(120,120,120); */
+  color: white !important;
+  display: flex;
+  justify-content: center;
+}
+
+.creator a {
+  /* color: rgb(120,120,120) !important; */
+  color: white !important;
+}

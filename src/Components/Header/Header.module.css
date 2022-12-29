@@ -1,0 +1,35 @@
+.header {
+  background-color: rgb(148, 148, 147) !important;
+  
+}
+
+.container {
+  margin-bottom: -7px;
+  background-color: rgb(126 126 126);
+}
+
+.link {
+  place-content: center;
+}
+
+a {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-size: 0.8rem !important;
+  letter-spacing: 2px !important;
+  margin-right: 10px !important;
+}
+
+a:hover {
+  color: #cecece !important;
+}
+
+.socialMedial {
+  display: flex;
+}
+
+.link {
+  text-align-last: center !important;
+  justify-content: center !important;
+}

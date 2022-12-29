@@ -1,0 +1,43 @@
+  
+.content {
+  display: flex;
+  justify-content: flex-end;
+  /* margin: 20px; */
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200 !important;
+  letter-spacing: 5px !important;
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+.description {
+  text-align: justify;
+  font-size: 1.0em;
+  letter-spacing:1px;
+  vertical-align: normal;
+  color: #fff;
+  padding: 15px;
+}
+
+.information {
+  background: rgb(120, 120, 120);
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.hero {
+  background: linear-gradient(rgb(191, 181, 181, 40.5%), rgb(171, 170, 207, 27%));
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.heroImage {
+  position: absolute;
+    width: 34%;
+    margin: 30px;
+    left: 544px;
+}

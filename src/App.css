@@ -1,0 +1,66 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #Ffff;
+  --fontFirst: "Poppins", sans-serif;
+  font-family: var(--fontFirst);
+  /* background-color: #cecece !important; */
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button, input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--typeFirst);
+  color: #333;
+}
+
+.container {
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

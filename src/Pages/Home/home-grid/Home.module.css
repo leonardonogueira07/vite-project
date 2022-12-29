@@ -1,0 +1,83 @@
+.hero {
+  position: absolute;
+  /* background-image: linear-gradient(to bottom, red, yellow); */
+  background-color: black !important;
+  /* opacity: 1.5; */
+  /* transition: 2s; */
+}
+
+.hero img {
+  width: 100vw;
+  height: 90vh;
+  /* opacity: 65%; */
+  opacity: 0.5 !important;
+}
+
+/* .hero {
+  position: absolute;
+  background-image: linear-gradient(to bottom, red, yellow);
+  background-color: black !important;
+  opacity: 0.5;
+  transition: 2s;
+} */
+
+/* .overlay:scroll {
+  opacity: 0.5;
+} */
+
+/* .seta img {
+  width: 50vw;
+  height: 5vh;
+  opacity: 0.40;
+}
+ */
+.hero1 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: nowrap; */
+  padding-top: 50px;
+}
+
+.hero1 h1 {
+  font-size: 3.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 300;
+  /* flex: 0 0 auto; */
+  width: 8.33333333%;
+}
+
+.heroFront img {
+  /* width: 30vw;
+  height: 75vh; */
+  width: 100%;
+}
+
+/* ===== Seta =====*/
+.seta {
+  position: fixed;
+  /* top: 160px; */
+  /* width: 25vw; */
+  /* left: -80px; */
+  width: 15vw !important;
+  /* height: 5vh; */
+  pointer-events: auto;
+  scroll: auto;
+  z-index:99999;
+  animation: down 0.7s;
+  transform: rotate(90deg);
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+/* ===== Efeito Seta =====*/
+@keyframes down {
+  from {
+    transform: translateY(10vh) rotate(90deg);
+  }
+  to {
+    transform: translateY(30vh) rotate(90deg);
+  }
+}

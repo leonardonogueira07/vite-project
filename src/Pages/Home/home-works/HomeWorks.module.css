@@ -1,0 +1,27 @@
+.aboutService {
+  /* display: flex; */
+  /* position: absolute; */
+  /* width: 100vw !important; */
+  height: 160vh !important;
+}
+
+.hero {
+  position: absolute;
+  background-color: black !important;
+}
+
+.hero img {
+  width: 100vw !important;
+  height: 160vh !important;
+  opacity: 0.5;
+}
+
+.content {
+  position: absolute;
+  margin: 25px !important;
+}
+
+.work1 {
+  font-size: 2.0rem !important;
+  color: #fff !important
+}
